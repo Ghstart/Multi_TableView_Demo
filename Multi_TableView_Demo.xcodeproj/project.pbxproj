@@ -19,6 +19,8 @@
 		C02E86D71908A5EB00E74334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02E86BF1908A5EB00E74334 /* UIKit.framework */; };
 		C02E86DF1908A5EB00E74334 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C02E86DD1908A5EB00E74334 /* InfoPlist.strings */; };
 		C02E86E11908A5EB00E74334 /* Multi_TableView_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C02E86E01908A5EB00E74334 /* Multi_TableView_DemoTests.m */; };
+		C02E86EC1908A5FD00E74334 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C02E86EB1908A5FD00E74334 /* MainViewController.m */; };
+		C02E86EF1908FA8600E74334 /* ItemSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = C02E86EE1908FA8600E74334 /* ItemSelectView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		C02E86DC1908A5EB00E74334 /* Multi_TableView_DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multi_TableView_DemoTests-Info.plist"; sourceTree = "<group>"; };
 		C02E86DE1908A5EB00E74334 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C02E86E01908A5EB00E74334 /* Multi_TableView_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multi_TableView_DemoTests.m; sourceTree = "<group>"; };
+		C02E86EA1908A5FD00E74334 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C02E86EB1908A5FD00E74334 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C02E86ED1908FA8600E74334 /* ItemSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemSelectView.h; sourceTree = "<group>"; };
+		C02E86EE1908FA8600E74334 /* ItemSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemSelectView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				C02E86CA1908A5EB00E74334 /* AppDelegate.h */,
 				C02E86CB1908A5EB00E74334 /* AppDelegate.m */,
+				C02E86EA1908A5FD00E74334 /* MainViewController.h */,
+				C02E86EB1908A5FD00E74334 /* MainViewController.m */,
+				C02E86ED1908FA8600E74334 /* ItemSelectView.h */,
+				C02E86EE1908FA8600E74334 /* ItemSelectView.m */,
 				C02E86CD1908A5EB00E74334 /* Images.xcassets */,
 				C02E86C21908A5EB00E74334 /* Supporting Files */,
 			);
@@ -240,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C02E86CC1908A5EB00E74334 /* AppDelegate.m in Sources */,
+				C02E86EF1908FA8600E74334 /* ItemSelectView.m in Sources */,
+				C02E86EC1908A5FD00E74334 /* MainViewController.m in Sources */,
 				C02E86C81908A5EB00E74334 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +451,7 @@
 				C02E86E61908A5EB00E74334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C02E86E71908A5EB00E74334 /* Build configuration list for PBXNativeTarget "Multi_TableView_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +460,7 @@
 				C02E86E91908A5EB00E74334 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
